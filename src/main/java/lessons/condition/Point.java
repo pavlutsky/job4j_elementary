@@ -1,4 +1,4 @@
-package condition;
+package lessons.condition;
 
 public class Point {
     static double distance(int x1, int y1, int x2, int y2) {
