@@ -1,4 +1,4 @@
-package ru.job4j;
+package lessons;
 
 public class StudentInfo {
     public static void main(String[] args) {
