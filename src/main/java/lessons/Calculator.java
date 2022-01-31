@@ -11,8 +11,8 @@ public class Calculator {
             System.out.println(result);
         }
 
-        public static void div(int first, int second) {
-            int result = first / second;
+        public static void div(double first, double second) {
+            double result = first / second;
             System.out.println(result);
         }
 
@@ -28,7 +28,7 @@ public class Calculator {
         Calculator.minus(100, 500);
         Calculator.minus(4, 2);
         Calculator.minus(3, 5);
-        Calculator.div(100, 500);
+        Calculator.div(1499, 500);
         Calculator.div(4, 2);
         Calculator.div(3, 5);
         Calculator.time(100, 500);
