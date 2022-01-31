@@ -1,4 +1,4 @@
-package lessons;
+package lessons.calculator;
 
 public class Calculator {
         public static void plus(int first, int second) {
