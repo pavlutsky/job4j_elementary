@@ -1,6 +1,6 @@
 package lessons;
 
-public class Convertor {
+public class Converter {
     public static float rubleToEuro(float value) {
         return value / 87;
     }
