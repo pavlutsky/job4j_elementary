@@ -1,6 +1,6 @@
 package lessons;
 
-public class Exercise {
+public class Convertortest {
 
     public static void main(String[] args) {
     float in = 174;
