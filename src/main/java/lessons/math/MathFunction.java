@@ -6,6 +6,14 @@ public class MathFunction {
         return first + second;
     }
 
+    public static double div(double first, double second) {
+        return first / second;
+    }
+
+    public static double diff(double first, double second) {
+        return first - second;
+    }
+
     public static double multiply(double first, double second) {
         return first * second;
     }
