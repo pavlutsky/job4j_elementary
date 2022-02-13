@@ -2,20 +2,21 @@ package lessons;
 
     public class Exercise {
 
-        public static double div(double y) {
-            double i = y / 6;
-            int l = (int) i;
-            if (l != i) {
-                System.out.println(y + " не делится на 6");
-            } else {
-                System.out.println(y + " делится на 6");
+        public static String checkNumber(int number) {
+            if (number % 15 == 0)  {
+                return "Hello, World!!!";
+            } else if (number % 5 == 0)  {
+                return "World";
             }
-            return i;
+            if (number % 3 == 0)  {
+                return "Hello";
+            } else {
+                return "Operation not support";
+            }
         }
 
         public static void main(String[] args) {
-            double rsl = Exercise.div(573723768);
-            rsl = Exercise.div(573723761);
+           String rsl = Exercise.checkNumber(16);
+           System.out.println(rsl);
         }
-
     }
