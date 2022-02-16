@@ -2,6 +2,16 @@ package lessons.array;
 
 public class SwitchArray {
 
+    public static int[] swap(int[] array, int source, int dest) {
+        int length = array.length / 2;
+        double l = Math.floor(length);
+        int s = (int) l;
+        int temp = array[s];
+        array[s] = array[s - 1];
+        array[s - 1] = temp;
+        return array;
+    }
+
     public static int[] swapBorder(int[] array) {
         int temp = array[0];
         array[0] = array[array.length - 1];
